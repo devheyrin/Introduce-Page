@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR:wght@400;500&family=Roboto+Mono&display=swap');
 *{
   margin: 0;
   box-sizing: border-box;
@@ -21,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid grey;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .home {
@@ -33,10 +36,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .profile_desc {
-  width: 400px;
+  width: 450px;
 }
 
 .img_profile {
@@ -72,6 +76,7 @@ nav ul {
 
 .main {
   margin-top: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .detail {
